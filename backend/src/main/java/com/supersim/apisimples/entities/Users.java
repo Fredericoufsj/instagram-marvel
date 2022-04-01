@@ -12,7 +12,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 /** Classe que representa a entidade usuario do banco de dados
  */
-@Data
+
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
@@ -26,5 +26,26 @@ public class Users {
 	private String email;
 	@Column(name = "senha")
 	private String senha;
+	public Long getId() {
+		return id;
+	}
+	public void setId(Long id) {
+		this.id = id;
+	}
+	public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) {
+		this.email = email;
+	}
+	public String getSenha() {
+		return senha;
+	}
+	public void setSenha(String senha) {
+		this.senha = senha;
+	}
+	
+	
+	
 
 }
