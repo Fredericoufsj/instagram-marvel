@@ -8,16 +8,16 @@ import { IconContext } from 'react-icons'
 
 import './style.css'
 
-export function Header(){
+export function Header() {
 
-return(
+    return (
+        <header className="header" >
 
-    <header className="header">
-        <div className="container">
+            <div className="container" >
 
-        <img src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png" alt="Logo/imagem do instagram" />
+                <img className="logo" src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png" />
 
-        <div className="input-fake">
+                <div className="input-fake">
                     <IconContext.Provider value={{ color: '#8e8e8e' }}>
                         <AiOutlineSearch />
                     </IconContext.Provider>
@@ -52,13 +52,10 @@ return(
                     </IconContext.Provider>
                     <img className="img-user" src="https://avatars.githubusercontent.com/u/72985009?v=4" />
                 </div>
-                    
 
+            </div>
 
-        </div>
-
-
-    </header>
-)
+        </header>
+    )
 
 }

@@ -1,5 +1,8 @@
 import './style.css'
 
+import { Story } from '../Story'
+import { Post } from '../Post'
+import { Suggestion } from '../Suggestion'
 
 export function Layout() {
 
@@ -10,18 +13,18 @@ export function Layout() {
 
                 <div className="first-column" style={{gridArea: "firstColumn"}}>
                     <div className="box" >
-                       Story
+                        <Story />
                     </div>
 
                     <div className="box" style={{margin: "30px 0"}} >
-                       Post
+                        <Post />
                     </div>
                 </div>
                
 
                 <div style={{ gridArea: "secondColumn" }} >
                     <div className="suggestionBox" >
-                        Sugestion 
+                        <Suggestion />
                     </div>
                 </div>
 
