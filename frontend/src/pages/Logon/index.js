@@ -1,6 +1,7 @@
 import React from 'react';
 import { useRef } from 'react'
 import api from '../../services/api'
+import {Link} from 'react-router-dom';
 
 import './style.css';
 
@@ -35,7 +36,7 @@ export default function Logon() {
             <span className="facebook"> <sub><AiFillFacebook size="22" /> </sub>Entrar com Facebook</span>
           </a>
 
-          <a href="/" className="find-password"> Esqueceu a senha?</a>
+          <Link to="/feed" className="find-password"> Esqueceu a senha?</Link>
         </form>
 
         <div className="group">
