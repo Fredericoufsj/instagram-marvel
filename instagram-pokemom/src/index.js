@@ -1,11 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import Rotas from './routes/routes';
+
+import './styles/global.css'
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Rotas />
   </React.StrictMode>,
   document.getElementById('root')
 );
