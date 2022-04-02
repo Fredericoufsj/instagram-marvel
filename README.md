@@ -32,6 +32,11 @@ Estas são as tecnologias utilizadas no desenvolvimento do projeto:
 <a href="https://imgur.com/avl3W2F"><img src="https://i.imgur.com/avl3W2F.png" title="source: imgur.com" /></a>
 <a href="https://imgur.com/5gg7wxt"><img src="https://i.imgur.com/5gg7wxt.png" title="source: imgur.com" /></a>
 
+# Link da aplicação :
+
+-No Heroku: https://instagram-marvel.herokuapp.com/
+-No Netlify: https://warm-quokka-96e20e.netlify.app/feed
+
 ________________________________________________________________________________________________________________________________________________________________________________
 <div align="center">
   <p>Desenvolvido com 💙 Frederico Thomaz</p> <br>
