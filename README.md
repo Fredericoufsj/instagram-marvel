@@ -34,8 +34,8 @@ Estas são as tecnologias utilizadas no desenvolvimento do projeto:
 
 # Link da aplicação :
 
--No Heroku: https://instagram-marvel.herokuapp.com/
--No Netlify: https://warm-quokka-96e20e.netlify.app/feed
+- No Heroku: https://instagram-marvel.herokuapp.com/
+- No Netlify: https://warm-quokka-96e20e.netlify.app/feed
 
 ________________________________________________________________________________________________________________________________________________________________________________
 <div align="center">
