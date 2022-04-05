@@ -1,7 +1,7 @@
 import React from 'react';
 import { useRef } from 'react'
 import api from '../../services/api'
-import {Link} from 'react-router-dom';
+import {Link, Redirect} from 'react-router-dom';
 
 import './style.css';
 
@@ -20,6 +20,8 @@ export default function Logon() {
       email: email.current.value,
       senha: senha.current.value,
     }).then((res) => console.log(res.data)).catch((err) => console.log(err))
+   
+
   }
 
   return (
@@ -29,9 +31,10 @@ export default function Logon() {
           <img src="https://logodownload.org/wp-content/uploads/2017/04/instagram-logo-1.png" alt="Instagram" className="instagram-logo" />
           <input type="text" ref={email} placeholder="Telefone, nome de usuário ou email" className="input-fields" />
           <input type="password" ref={senha} placeholder="Senha" className="input-fields" />
-          <button type="submit" className="login-button">Entrar</button>
+          <Link to="/feed">
+          <button href="/feed" type="submit" className="login-button">Entrar</button>
+          </Link>
           <p className="hiddle-text">OU</p>
-
           <a href="/">
             <span className="facebook"> <sub><AiFillFacebook size="22" /> </sub>Entrar com Facebook</span>
           </a>
