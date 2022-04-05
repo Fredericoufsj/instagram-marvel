@@ -4,10 +4,6 @@ Esse é um projeto de um Clone do instagram desenvolvido em react.js que consome
 O projeto foi desenvolvido em uma etapa de um processo de recrutamento. A proposta do desafio é usar algumas das tecnologias utilizadas na arquitetura da empresa para construir uma aplicação do início ao fim.<br>
 A Api da marvel é utilizada no history para trazer os personagens de forma dinâmica. Já a Api do Github é usada para trazer as sugestões de amigos.
 
-# 🤳🏻 Funcionalidades gerais(métodos)
-
--  getAll
--  post
 
 # 🚀 Tecnologias
 Estas são as tecnologias utilizadas no desenvolvimento do projeto:
@@ -27,10 +23,24 @@ Estas são as tecnologias utilizadas no desenvolvimento do projeto:
 - Faça "npm i"
 - Faça "npm start"
 
+# 🤳🏻 Funcionalidades e implementações(futuras)
+
+-  getAll
+-  post
+-  verificações e redirect(navigation)
+-  encriptação de senha
+-  jwt
+-  documentação com swagger
+
 # Imagens do projeto:
 
 <a href="https://imgur.com/avl3W2F"><img src="https://i.imgur.com/avl3W2F.png" title="source: imgur.com" /></a>
 <a href="https://imgur.com/5gg7wxt"><img src="https://i.imgur.com/5gg7wxt.png" title="source: imgur.com" /></a>
+
+# Link da aplicação :
+
+- No Heroku: https://instagram-marvel.herokuapp.com/
+- No Netlify: https://warm-quokka-96e20e.netlify.app/feed
 
 ________________________________________________________________________________________________________________________________________________________________________________
 <div align="center">
